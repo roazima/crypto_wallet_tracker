@@ -1,0 +1,16 @@
+# secrets
+private.env
+.env
+data/private.env
+data/wallets.json
+# skip Lambda stub (for now)
+lambda_function.py
+
+# local stuff
+venv/
+.venv/
+__pycache__/
+*.pyc
+lambda_package/
+lambda_deploy.zip
+.DS_Store
